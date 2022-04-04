@@ -119,9 +119,9 @@ nextBtn.onclick = () => {
             element.style.display = 'none';
         })
         tryAgain.style.display = 'flex';
-        question.textContent = 'Your Score';
-        endScore.style.display = 'flex';
-        endScore.textContent = `${score.textContent} / ${counter.textContent}`;
+        //question.textContent = 'Your Score';
+        //endScore.style.display = 'flex';
+        //endScore.textContent = `${score.textContent} / ${counter.textContent}`;
         counterContainer.style.display = 'none';
         choiceContainer.style.justifyContent = 'center';
         navigation.style.justifyContent = 'center';
